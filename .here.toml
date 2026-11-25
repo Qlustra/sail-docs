@@ -1,0 +1,8 @@
+[here]
+label = "Sail Docs"
+location = "sail-docs"
+about = "The Sail capability manual."
+
+[where.manual]
+path = "manual/readme.md"
+about = "Start with Sail’s world, then find chapters in capability order."
