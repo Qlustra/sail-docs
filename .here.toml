@@ -1,8 +1,12 @@
 [here]
 label = "Sail Docs"
 location = "sail-docs"
-about = "The Sail capability manual."
+about = "The Sail capability manual and its runnable example bundle."
 
 [where.manual]
 path = "manual/readme.md"
 about = "Start with Sail’s world, then find chapters in capability order."
+
+[where.examples]
+path = "examples/readme.md"
+about = "Choose an independent task or a complete framework example, with setup and run commands."

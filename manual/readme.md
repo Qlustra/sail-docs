@@ -56,4 +56,5 @@ Use the manual to choose and combine capabilities. Use `go doc` in your own
 module for exact signatures and call contracts in the Sail version you use;
 the [Sail API](https://pkg.go.dev/github.com/qlustra/sail) and
 [Legend marker API](https://pkg.go.dev/github.com/qlustra/sail/legend) are
-reference entry points.
+reference entry points. [Runnable examples](../examples/readme.md) are optional:
+use them to try a task, not to fill in a missing precondition in the manual.

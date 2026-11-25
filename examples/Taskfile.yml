@@ -1,0 +1,42 @@
+version: '3'
+
+tasks:
+  population:
+    desc: Describe application settings from their declarations
+    cmds:
+      - GOWORK=off go run -mod=readonly ./population
+
+  validation:
+    desc: Distinguish grammar, Chart, and Course validation
+    cmds:
+      - GOWORK=off go run -mod=readonly ./validation
+
+  lanes:
+    desc: Split repeated members into ordered groups
+    cmds:
+      - GOWORK=off go run -mod=readonly ./lanes
+
+  survey:
+    desc: List nested declarations with inherited context
+    cmds:
+      - GOWORK=off go run -mod=readonly ./survey
+
+  course:
+    desc: Find the sole complete route through ambiguous siblings
+    cmds:
+      - GOWORK=off go run -mod=readonly ./course
+
+  live-field:
+    desc: Update one field in a live Chart
+    cmds:
+      - GOWORK=off go run -mod=readonly ./live-field
+
+  catalog:
+    desc: Preview and read an in-memory workspace catalog
+    cmds:
+      - GOWORK=off go run -mod=readonly ./catalog
+
+  command-frames:
+    desc: Describe a command tree and render separate frames
+    cmds:
+      - GOWORK=off go run -mod=readonly ./command-frames
